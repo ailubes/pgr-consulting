@@ -386,8 +386,39 @@
       },
       "mediation": {
         "title": "Corporate Conflict Mediation",
+        "tag": "B2B Mediation",
         "desc": "Successful resolution of conflicts for business structures and protection of business interests in relations with authorities."
       }
+    },
+    "impact": {
+      "label": "Our Impact",
+      "title": "Results That Speak for Themselves",
+      "subtitle": "Numbers and facts of our work over the years",
+      "metrics": {
+        "projects": {
+          "value": "50+",
+          "label": "Successful Projects"
+        },
+        "campaigns": {
+          "value": "25+",
+          "label": "Election Campaigns"
+        },
+        "clients": {
+          "value": "100+",
+          "label": "Satisfied Clients"
+        },
+        "years": {
+          "value": "5+",
+          "label": "Years of Experience"
+        }
+      }
+    },
+    "cta": {
+      "badge": "Start Now",
+      "title": "Ready to Create Your Success Story?",
+      "description": "Contact us to discuss your project. We provide free consultations to assess collaboration opportunities.",
+      "primaryButton": "Discuss Your Project",
+      "secondaryButton": "Our Services"
     }
   },
   "guarantees": {
