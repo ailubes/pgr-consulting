@@ -81,6 +81,7 @@
     "services": "Services",
     "media": "Media & Insights",
     "contact": "Contact Us",
+    "cases": "Cases",
     "selectLanguage": "Select Language"
   },
   "Footer": {
@@ -360,182 +361,217 @@
       "step3": "Within one week: Detailed proposal"
     }
   },
-  "ServicesPage": {
-    "hero": {
-      "badge": "Precision Consulting",
-      "title": "Our \nCapabilities.",
-      "titleHighlight": "Capabilities",
-      "subtitle": "Bridging the critical gap between political ambition and clinical execution with data-driven precision."
-    },
-    "list": {
-      "pr": {
-        "title": "Public Relations (PR)",
-        "desc": "Strategic communication that build trust."
-      },
-      "reputation": {
-        "title": "Reputation Management",
-        "desc": "Protecting and strengthening your public image."
-      },
-      "gr": {
-        "title": "Government Relations (GR)",
-        "desc": "Expert navigation in relations with authorities."
-      },
-      "advocacy": {
-        "title": "Advocacy Campaigns",
-        "desc": "Systematic campaigns for implementing policy."
-      },
-      "elections": {
-        "title": "Election Campaigns",
-        "desc": "Full-cycle support from strategy to polls."
-      },
-      "research": {
-        "title": "Public Opinion Research",
-        "desc": "Reliable data for the right decisions."
-      }
-    },
-    "methodology": {
-      "badge": "Systematic Excellence",
-      "title": "The PGR \nMethodology.",
-      "titleHighlight": "Methodology",
-      "desc": "Beyond conventional consulting, we employ a multi-layered framework of sociological tracking, behavioral analysis, and strategic modeling.",
-      "cta": "Explore Our Process",
-      "steps": {
-        "s1": {
-          "title": "Diagnostic Audit",
-          "desc": "Rigorous baseline assessment of the current socio-political landscape."
-        },
-        "s2": {
-          "title": "Strategic Simulation",
-          "desc": "Modeling potential outcomes using predictive analytics and field data."
-        },
-        "s3": {
-          "title": "Deployment",
-          "desc": "Surgical execution of narrative and legislative strategies."
-        }
-      }
-    }
+  "tabs": {
+    "government": "Public Authorities",
+    "business": "Business",
+    "civil": "Civil Society"
+  }
+},
+"CasesPage": {
+  "hero": {
+    "label": "Portfolio",
+    "title": "Success \nStories.",
+    "titleHighlight": "Stories",
+    "subtitle": "Real examples of our winning strategies and systemic changes."
   },
-  "Services": {
-    "shared": {
-      "cta": "Discuss Your Project",
-      "offer": "What We Offer",
-      "methodology": "How It Works",
-      "whyChooseUs": "Why Choose Us",
-      "explore": "Explore Strategy"
+  "cases": {
+    "constitution": {
+      "title": "Public Advocacy for Constitutional Amendments",
+      "tag": "GR & Advocacy",
+      "desc": "Organizing an advocacy campaign to withdraw the presidential bill on decentralization amendments. Collecting 300+ signatures from experts and local leaders."
     },
+    "chernivtsi": {
+      "title": "'Turnkey' Election Campaign (Chernivtsi 2020)",
+      "tag": "Elections",
+      "desc": "Full support for 'United Alternative' party: from sociology to victory. 20% in city council and victory of mayoral candidate Roman Klichuk."
+    },
+    "strategies": {
+      "title": "Strategic Campaign Planning (2015-2020)",
+      "tag": "Strategy",
+      "desc": "Work in V. Zelensky's HQ (2019) on decentralization plan and support of 'Servant of the People' campaign in district 213. 'Mayor School' campaigns (2015)."
+    },
+    "mediation": {
+      "title": "Corporate Conflict Mediation",
+      "desc": "Successful resolution of conflicts for business structures and protection of business interests in relations with authorities."
+    }
+  }
+},
+"ServicesPage": {
+  "hero": {
+    "badge": "Precision Consulting",
+    "title": "Our \nCapabilities.",
+    "titleHighlight": "Capabilities",
+    "subtitle": "Bridging the critical gap between political ambition and clinical execution with data-driven precision."
+  },
+  "list": {
     "pr": {
       "title": "Public Relations (PR)",
-      "subtitle": "Strategic communications that build trust and shape public opinion",
-      "desc": "In politics, perception is often more important than facts. We help political figures and organizations create the right perception through professional media relations, public events, and digital channels.",
-      "offer": {
-        "strategy": "Media Strategy",
-        "strategyDesc": "Development of comprehensive media relations strategy.",
-        "training": "Media Training",
-        "trainingDesc": "Preparation of political figures for interviews and public appearances.",
-        "press": "Press Conferences",
-        "pressDesc": "Full cycle of press conference preparation and execution.",
-        "crisis": "Crisis Communications",
-        "crisisDesc": "Fast and effective response to reputational challenges.",
-        "monitoring": "Media Monitoring",
-        "monitoringDesc": "Continuous tracking of media mentions with tone analysis.",
-        "content": "Content Production",
-        "contentDesc": "Creation of quality content for media: press releases, articles."
-      }
+      "desc": "Strategic communication that build trust."
     },
     "reputation": {
       "title": "Reputation Management",
-      "subtitle": "Protecting and strengthening reputation amid information challenges",
-      "desc": "Reputation in politics is an asset that requires constant attention. We help political figures and organizations build sustainable positive reputations.",
-      "offer": {
-        "audit": "Reputation Audit",
-        "auditDesc": "Comprehensive analysis of current reputation status.",
-        "strategy": "Reputation Strategy",
-        "strategyDesc": "Development of long-term reputation management strategy.",
-        "monitoring": "Monitoring and Analysis",
-        "monitoringDesc": "Continuous tracking of mentions in traditional and digital media.",
-        "crisis": "Crisis Management",
-        "crisisDesc": "Rapid development and implementation of response strategy.",
-        "positive": "Positive Content",
-        "positiveDesc": "Creation and distribution of content that shapes correct perception.",
-        "negative": "Negative Management",
-        "negativeDesc": "Professional work with negative mentions and information attacks."
-      }
+      "desc": "Protecting and strengthening your public image."
     },
     "gr": {
       "title": "Government Relations (GR)",
-      "subtitle": "Professional navigation in interactions with government authorities",
-      "desc": "Effective interaction with government authorities requires deep understanding of decision-making processes. We help organizations build productive relationships.",
-      "offer": {
-        "strategy": "GR Strategy",
-        "strategyDesc": "Development of comprehensive government relations strategy.",
-        "stakeholder": "Stakeholder Analysis",
-        "stakeholderDesc": "Mapping key decision-makers and analyzing their interests.",
-        "leg": "Legislative Support",
-        "legDesc": "Supporting organizations in advancing legislative changes.",
-        "ministry": "Ministry Engagement",
-        "ministryDesc": "Organization of meetings and negotiation support.",
-        "regulatory": "Regulatory Analysis",
-        "regulatoryDesc": "Monitoring legislative changes and their impact analysis.",
-        "procurement": "Procurement Support",
-        "procurementDesc": "Consulting on public procurement procedures."
-      }
+      "desc": "Expert navigation in relations with authorities."
     },
     "advocacy": {
       "title": "Advocacy Campaigns",
-      "subtitle": "Systematic campaigns for implementing policy changes",
-      "desc": "Changing policy requires more than just a good idea. It requires systematic work: research, coalition building, lobbying, and media support.",
-      "offer": {
-        "research": "Research and Analysis",
-        "researchDesc": "Study of public opinion and political context analysis.",
-        "strategy": "Strategy Development",
-        "strategyDesc": "Comprehensive advocacy campaign strategy with concrete stages.",
-        "coalition": "Coalition Building",
-        "coalitionDesc": "Uniting organizations and activists around a common goal.",
-        "lobbying": "Lobbying",
-        "lobbyingDesc": "Work with parliamentarians and decision-makers.",
-        "media": "Media Campaign",
-        "mediaDesc": "Strategic media work to build public support.",
-        "grassroots": "Grassroots Mobilization",
-        "grassrootsDesc": "Organization of public actions and petitions."
-      }
+      "desc": "Systematic campaigns for implementing policy."
     },
     "elections": {
       "title": "Election Campaigns",
-      "subtitle": "Full-cycle support from strategy to exit polls",
-      "desc": "Elections are a complex process where every detail matters. We help candidates and parties develop winning strategies based on data.",
-      "offer": {
-        "research": "Pre-Election Research",
-        "researchDesc": "Sociological surveys to determine electoral mood.",
-        "strategy": "Strategy Development",
-        "strategyDesc": "Comprehensive election campaign strategy.",
-        "positioning": "Candidate Positioning",
-        "positioningDesc": "Development of unique candidate positioning.",
-        "message": "Message Development",
-        "messageDesc": "Creation of key campaign messages for target audiences.",
-        "digital": "Digital Campaign",
-        "digitalDesc": "Social media strategy and digital channel impact analysis.",
-        "exitpoll": "Exit Polls",
-        "exitpollDesc": "Professional exit polls for accurate result forecasting."
-      }
+      "desc": "Full-cycle support from strategy to polls."
     },
     "research": {
       "title": "Public Opinion Research",
-      "subtitle": "Reliable data for the right decisions",
-      "desc": "Quality public opinion research is the foundation for effective decisions. We partner with Info Sapiens to provide precise data.",
-      "offer": {
-        "national": "National Surveys",
-        "nationalDesc": "Representative polls at the all-Ukraine level.",
-        "regional": "Regional Research",
-        "regionalDesc": "Surveys at oblast, city, or specific regional level.",
-        "exitpoll": "Exit Polls",
-        "exitpollDesc": "Voter surveys at polling station exits.",
-        "focus": "Focus Groups",
-        "focusDesc": "Qualitative research for deep understanding of motivations.",
-        "omnibus": "Omnibus Surveys",
-        "omnibusDesc": "Multiple clients sharing a single survey for affordability.",
-        "ratings": "Political Ratings",
-        "ratingsDesc": "Research of electoral ratings for parties and politicians."
+      "desc": "Reliable data for the right decisions."
+    }
+  },
+  "methodology": {
+    "badge": "Systematic Excellence",
+    "title": "The PGR \nMethodology.",
+    "titleHighlight": "Methodology",
+    "desc": "Beyond conventional consulting, we employ a multi-layered framework of sociological tracking, behavioral analysis, and strategic modeling.",
+    "cta": "Explore Our Process",
+    "steps": {
+      "s1": {
+        "title": "Diagnostic Audit",
+        "desc": "Rigorous baseline assessment of the current socio-political landscape."
+      },
+      "s2": {
+        "title": "Strategic Simulation",
+        "desc": "Modeling potential outcomes using predictive analytics and field data."
+      },
+      "s3": {
+        "title": "Deployment",
+        "desc": "Surgical execution of narrative and legislative strategies."
       }
     }
   }
+},
+"Services": {
+  "shared": {
+    "cta": "Discuss Your Project",
+    "offer": "What We Offer",
+    "methodology": "How It Works",
+    "whyChooseUs": "Why Choose Us",
+    "explore": "Explore Strategy"
+  },
+  "pr": {
+    "title": "Public Relations (PR)",
+    "subtitle": "Strategic communications that build trust and shape public opinion",
+    "desc": "In politics, perception is often more important than facts. We help political figures and organizations create the right perception through professional media relations, public events, and digital channels.",
+    "offer": {
+      "strategy": "Media Strategy",
+      "strategyDesc": "Development of comprehensive media relations strategy.",
+      "training": "Media Training",
+      "trainingDesc": "Preparation of political figures for interviews and public appearances.",
+      "press": "Press Conferences",
+      "pressDesc": "Full cycle of press conference preparation and execution.",
+      "crisis": "Crisis Communications",
+      "crisisDesc": "Fast and effective response to reputational challenges.",
+      "monitoring": "Media Monitoring",
+      "monitoringDesc": "Continuous tracking of media mentions with tone analysis.",
+      "content": "Content Production",
+      "contentDesc": "Creation of quality content for media: press releases, articles."
+    }
+  },
+  "reputation": {
+    "title": "Reputation Management",
+    "subtitle": "Protecting and strengthening reputation amid information challenges",
+    "desc": "Reputation in politics is an asset that requires constant attention. We help political figures and organizations build sustainable positive reputations.",
+    "offer": {
+      "audit": "Reputation Audit",
+      "auditDesc": "Comprehensive analysis of current reputation status.",
+      "strategy": "Reputation Strategy",
+      "strategyDesc": "Development of long-term reputation management strategy.",
+      "monitoring": "Monitoring and Analysis",
+      "monitoringDesc": "Continuous tracking of mentions in traditional and digital media.",
+      "crisis": "Crisis Management",
+      "crisisDesc": "Rapid development and implementation of response strategy.",
+      "positive": "Positive Content",
+      "positiveDesc": "Creation and distribution of content that shapes correct perception.",
+      "negative": "Negative Management",
+      "negativeDesc": "Professional work with negative mentions and information attacks."
+    }
+  },
+  "gr": {
+    "title": "Government Relations (GR)",
+    "subtitle": "Professional navigation in interactions with government authorities",
+    "desc": "Effective interaction with government authorities requires deep understanding of decision-making processes. We help organizations build productive relationships.",
+    "offer": {
+      "strategy": "GR Strategy",
+      "strategyDesc": "Development of comprehensive government relations strategy.",
+      "stakeholder": "Stakeholder Analysis",
+      "stakeholderDesc": "Mapping key decision-makers and analyzing their interests.",
+      "leg": "Legislative Support",
+      "legDesc": "Supporting organizations in advancing legislative changes.",
+      "ministry": "Ministry Engagement",
+      "ministryDesc": "Organization of meetings and negotiation support.",
+      "regulatory": "Regulatory Analysis",
+      "regulatoryDesc": "Monitoring legislative changes and their impact analysis.",
+      "procurement": "Procurement Support",
+      "procurementDesc": "Consulting on public procurement procedures."
+    }
+  },
+  "advocacy": {
+    "title": "Advocacy Campaigns",
+    "subtitle": "Systematic campaigns for implementing policy changes",
+    "desc": "Changing policy requires more than just a good idea. It requires systematic work: research, coalition building, lobbying, and media support.",
+    "offer": {
+      "research": "Research and Analysis",
+      "researchDesc": "Study of public opinion and political context analysis.",
+      "strategy": "Strategy Development",
+      "strategyDesc": "Comprehensive advocacy campaign strategy with concrete stages.",
+      "coalition": "Coalition Building",
+      "coalitionDesc": "Uniting organizations and activists around a common goal.",
+      "lobbying": "Lobbying",
+      "lobbyingDesc": "Work with parliamentarians and decision-makers.",
+      "media": "Media Campaign",
+      "mediaDesc": "Strategic media work to build public support.",
+      "grassroots": "Grassroots Mobilization",
+      "grassrootsDesc": "Organization of public actions and petitions."
+    }
+  },
+  "elections": {
+    "title": "Election Campaigns",
+    "subtitle": "Full-cycle support from strategy to exit polls",
+    "desc": "Elections are a complex process where every detail matters. We help candidates and parties develop winning strategies based on data.",
+    "offer": {
+      "research": "Pre-Election Research",
+      "researchDesc": "Sociological surveys to determine electoral mood.",
+      "strategy": "Strategy Development",
+      "strategyDesc": "Comprehensive election campaign strategy.",
+      "positioning": "Candidate Positioning",
+      "positioningDesc": "Development of unique candidate positioning.",
+      "message": "Message Development",
+      "messageDesc": "Creation of key campaign messages for target audiences.",
+      "digital": "Digital Campaign",
+      "digitalDesc": "Social media strategy and digital channel impact analysis.",
+      "exitpoll": "Exit Polls",
+      "exitpollDesc": "Professional exit polls for accurate result forecasting."
+    }
+  },
+  "research": {
+    "title": "Public Opinion Research",
+    "subtitle": "Reliable data for the right decisions",
+    "desc": "Quality public opinion research is the foundation for effective decisions. We partner with Info Sapiens to provide precise data.",
+    "offer": {
+      "national": "National Surveys",
+      "nationalDesc": "Representative polls at the all-Ukraine level.",
+      "regional": "Regional Research",
+      "regionalDesc": "Surveys at oblast, city, or specific regional level.",
+      "exitpoll": "Exit Polls",
+      "exitpollDesc": "Voter surveys at polling station exits.",
+      "focus": "Focus Groups",
+      "focusDesc": "Qualitative research for deep understanding of motivations.",
+      "omnibus": "Omnibus Surveys",
+      "omnibusDesc": "Multiple clients sharing a single survey for affordability.",
+      "ratings": "Political Ratings",
+      "ratingsDesc": "Research of electoral ratings for parties and politicians."
+    }
+  }
+}
 }

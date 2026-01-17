@@ -30,6 +30,7 @@ export function TopNav() {
     const navLinks = [
         { href: "/", label: t("home") },
         { href: "/services", label: t("services") },
+        { href: "/cases", label: t("cases") },
         { href: "/about", label: t("about") },
         { href: "/media", label: t("media") },
     ];
