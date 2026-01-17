@@ -125,7 +125,7 @@ export default function ServicesPage() {
 
                         <div className="relative z-10 flex flex-col md:flex-row gap-12 items-start">
                             <div className="md:w-1/3">
-                                <span className="text-primary font-black tracking-widest uppercase text-xs block mb-4">Цільова Аудиторія</span>
+                                <span className="text-primary font-black tracking-widest uppercase text-xs block mb-4">{tClients("label")}</span>
                                 <h3 className="text-3xl font-black text-brand-black dark:text-white leading-tight">
                                     {segmentTitle}
                                 </h3>

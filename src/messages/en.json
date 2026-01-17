@@ -390,6 +390,37 @@
       }
     }
   },
+  "targetClients": {
+    "label": "Target Audience",
+    "government": {
+      "title": "Public Authorities & Politicians",
+      "items": [
+        "Politicians",
+        "Political Parties",
+        "Members of Parliament",
+        "Civil Servants",
+        "Local Self-Government Bodies"
+      ]
+    },
+    "business": {
+      "title": "Business & Business Associations",
+      "items": [
+        "Entrepreneurs",
+        "Private Companies",
+        "Corporations",
+        "Business Associations"
+      ]
+    },
+    "civil": {
+      "title": "Citizens & NGOs",
+      "items": [
+        "Citizens of Ukraine & Non-residents",
+        "Initiative Groups",
+        "Non-governmental Organizations",
+        "Professional & Industry Associations"
+      ]
+    }
+  },
   "ServicesPage": {
     "tabs": {
       "government": "Public Authorities",
