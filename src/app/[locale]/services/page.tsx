@@ -36,11 +36,14 @@ export default function ServicesPage() {
                 {/* Linear Asset Decoration */}
                 <motion.img
                     initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 0.3, scale: 1 }}
+                    animate={{ opacity: 0.4, scale: 1.2 }}
                     transition={{ duration: 2.5 }}
                     src="/images/linear.png"
                     alt=""
-                    className="absolute -top-1/2 -right-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-10 transition-opacity"
+                    style={{
+                        filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
+                    }}
+                    className="absolute -top-1/2 -right-1/4 w-full h-auto pointer-events-none z-[1] dark:opacity-20 transition-opacity"
                 />
 
                 <Container className="relative z-10 flex flex-col items-center text-center">

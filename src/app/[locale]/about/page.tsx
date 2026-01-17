@@ -35,11 +35,14 @@ export default function AboutPage() {
                 {/* Linear Asset Decoration */}
                 <motion.img
                     initial={{ opacity: 0, scale: 1.1 }}
-                    animate={{ opacity: 0.3, scale: 1 }}
+                    animate={{ opacity: 0.4, scale: 1 }}
                     transition={{ duration: 2 }}
                     src="/images/linear.png"
                     alt=""
-                    className="absolute -bottom-1/2 -left-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-10 transition-opacity"
+                    style={{
+                        filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
+                    }}
+                    className="absolute -bottom-1/2 -left-1/4 w-full h-auto pointer-events-none z-[1] dark:opacity-20 transition-opacity"
                 />
 
                 <Container className="relative z-10 grid lg:grid-cols-2 gap-20 items-center">

@@ -24,11 +24,14 @@ export function HeroSection() {
             {/* Linear Asset - Large subtle overlay */}
             <motion.img
                 initial={{ opacity: 0, scale: 1.1, rotate: -2 }}
-                animate={{ opacity: 0.4, scale: 1, rotate: 0 }}
+                animate={{ opacity: 0.6, scale: 1.4, rotate: 0 }}
                 transition={{ duration: 2, ease: "easeOut" }}
                 src="/images/linear.png"
                 alt=""
-                className="absolute -top-1/4 -right-1/4 w-full h-auto select-none pointer-events-none z-0 dark:opacity-20 transition-opacity"
+                style={{
+                    filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
+                }}
+                className="absolute top-0 right-0 w-[120%] h-auto select-none pointer-events-none z-[1] dark:opacity-30 transition-opacity"
             />
 
             <Container className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
