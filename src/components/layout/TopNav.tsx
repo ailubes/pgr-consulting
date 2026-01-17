@@ -50,7 +50,7 @@ export function TopNav() {
             <Container className="flex items-center justify-between">
                 <div className="flex items-center gap-12">
                     <Link href="/">
-                        <Logo />
+                        <Logo imageClassName="h-10 md:h-12 group-hover:scale-[2] origin-left transition-all duration-500" />
                     </Link>
 
                     {/* Desktop Nav */}
@@ -151,7 +151,7 @@ export function TopNav() {
                             className="lg:hidden fixed top-0 right-0 h-screen w-[85%] max-w-sm bg-white dark:bg-background-dark z-50 p-10 shadow-2xl flex flex-col"
                         >
                             <div className="flex items-center justify-between mb-16">
-                                <Logo />
+                                <Logo imageClassName="h-10 transition-all duration-500" />
                                 <button
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className="p-2 text-gray-400"
