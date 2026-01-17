@@ -1,0 +1,484 @@
+{
+  "HomePage": {
+    "title": "PGR Consulting Group",
+    "hero": {
+      "headline": "Political Strategy \nPublic Opinion \nResearch.",
+      "headlineHighlight": "Public Opinion",
+      "subheadline": "We help political leaders, organizations, and governments make informed decisions based on quality research and proven strategies",
+      "badge": "Eastern European Strategic Analysis",
+      "cta": "Our Services",
+      "contact": "Contact Us",
+      "learnMore": "Learn Our Methodology"
+    },
+    "expertise": {
+      "label": "Expertise",
+      "title": "Navigating the Complex Landscapes of Power.",
+      "titleHighlight": "Complex Landscapes",
+      "desc": "Our multi-disciplinary approach combines sociology, behavioral psychology, and deep legislative expertise."
+    },
+    "services": {
+      "title": "Our Services",
+      "pr": {
+        "title": "Public Relations (PR)",
+        "desc": "Strategic communications for political campaigns and organizations. We build trust between you and your audience through media, events, and digital channels."
+      },
+      "reputation": {
+        "title": "Reputation Management",
+        "desc": "We protect and strengthen the reputation of political figures and organizations. Monitoring, analysis, and strategic response to information challenges."
+      },
+      "gr": {
+        "title": "Government Relations (GR)",
+        "desc": "Expert navigation in relations with government authorities. We help organizations effectively interact with ministries, parliament, and regulators."
+      },
+      "advocacy": {
+        "title": "Advocacy Campaigns",
+        "desc": "Systematic campaigns for implementing policy changes. From research to lobbying — we deliver results."
+      },
+      "elections": {
+        "title": "Election Campaigns",
+        "desc": "Full-cycle support for election campaigns: from strategy to exit polls. Proven methods, accurate forecasts, effective solutions."
+      },
+      "research": {
+        "title": "Public Opinion Research",
+        "desc": "Sociological surveys and CATI methodology analysis in partnership with Info Sapiens. Reliable data for the right decisions."
+      }
+    },
+    "research": {
+      "title": "Recent Research",
+      "label": "Latest Field Research",
+      "button": "Download Report 2024",
+      "methodology": "Verified Methodology",
+      "stats": {
+        "alignment": "Democratic Alignment",
+        "concern": "Economic Stability Concern",
+        "trust": "EU Integration Trust"
+      },
+      "moldova": {
+        "title": "Quantifying the Regional Sentiment.",
+        "desc": "Our latest quarterly report on civil trust and economic expectations across the Carpathian-Balkan axis is now available for partners."
+      },
+      "firearms": {
+        "title": "Firearms Regulation in Ukraine: What Citizens Think",
+        "desc": "National survey of 2,012 respondents on Ukrainians' attitudes toward the right to bear arms and legislative regulation."
+      },
+      "metrics": {
+        "trust": "Public Trust Index",
+        "region": "Carpathian Axis",
+        "realtime": "Real-time Data Polling",
+        "verified": "Verified",
+        "q1": "Q1 2024"
+      }
+    },
+    "cta": {
+      "title": "Ready to Start a Project?",
+      "desc": "Contact us to discuss your situation. We provide free consultations to assess collaboration opportunities.",
+      "button": "Contact Us"
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "media": "Media & Insights",
+    "contact": "Contact Us",
+    "selectLanguage": "Select Language"
+  },
+  "Footer": {
+    "description": "PGR Consulting Group is a Ukrainian consulting firm founded in 2019. Our mission is to develop productive, mutually beneficial relationships between different entities through quality research and strategic communications.",
+    "navigation": "Navigation",
+    "links": {
+      "services": "Our Services",
+      "about": "About Us",
+      "media": "Media & Insights",
+      "contact": "Contact"
+    },
+    "contact": "Headquarters",
+    "expertise": "Expertise",
+    "risk": "Geopolitical Risk",
+    "leg": "Legislative Design",
+    "opinion": "Public Opinion",
+    "narrative": "Strategic Narrative",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "AboutPage": {
+    "hero": {
+      "label": "Our Story",
+      "title": "Architects of \nStrategic \nStability.",
+      "titleHighlight": "Strategic",
+      "subtitle": "Ukrainian consulting firm helping change policy through quality research and strategic communications",
+      "cta": "Study Our Methodology"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "quote": "To empower democratic institutions and political leaders across Eastern Europe with clinical precision in strategy, communications, and data analytics.",
+      "integrity": {
+        "title": "Institutional Integrity",
+        "desc": "Strengthening frameworks for long-term growth."
+      },
+      "data": {
+        "title": "Data-Driven Insights",
+        "desc": "Evidence over intuition in every decision."
+      }
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "PGR Consulting Group was founded in 2019 with a mission to develop productive, mutually beneficial relationships between different entities. We study our clients' needs, analyze the landscape, and offer them the best strategies for achieving communication goals.",
+      "specialization": "We focus on political consulting in Ukraine and Eastern Europe, with deep understanding of the region's political dynamics. Our expertise includes Ukraine, Moldova, and Romania — countries undergoing important democratic transformations.",
+      "diff": {
+        "title": "What Sets Us Apart",
+        "gov": "Government Experience: Our founders have direct experience working with Ukrainian ministries",
+        "research": "Research Foundation: Partnership with Info Sapiens provides quality data for strategic decisions",
+        "intl": "International Recognition: PGR experts regularly provide commentary for leading international media",
+        "acad": "Academic Connections: Collaboration with research institutes and participation in scientific projects"
+      }
+    },
+    "team": {
+      "title": "The Brain Trust",
+      "subtitle": "Expertise",
+      "label": "Leadership",
+      "desc": "Our partners combine decades of experience in high-stakes political consulting, constitutional design, and public policy across the European region.",
+      "ruslan": {
+        "name": "Ruslan Rokhov",
+        "title": "CEO and Managing Partner",
+        "bio": "Ruslan Rokhov is a Ukrainian political expert specializing in government communications, democratization, and local self-government.",
+        "tags": [
+          "Strategic Planner",
+          "Governance Expert"
+        ]
+      },
+      "alla": {
+        "name": "Alla Dubrovyk-Rokhova",
+        "title": "Co-founder and Partner",
+        "bio": "Alla Dubrovyk-Rokhova is an expert in economic policy, government communications, and education development abroad.",
+        "tags": [
+          "Economic Policy",
+          "Education Strategy"
+        ]
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "data": {
+        "title": "Data Over Assumptions",
+        "desc": "We base recommendations on quality research, not intuition or political expediency."
+      },
+      "partnership": {
+        "title": "Partnership Over Transactions",
+        "desc": "We build long-term relationships with clients, partners, and stakeholders."
+      },
+      "results": {
+        "title": "Results Over Process",
+        "desc": "We focus on achieving concrete, measurable results for clients."
+      },
+      "ethics": {
+        "title": "Ethics Over Profit",
+        "desc": "We don't take projects that contradict our ethical principles, even if they are financially attractive."
+      }
+    },
+    "partners": {
+      "badge": "Strategic Ecosystem",
+      "title": "Institutional Partnerships",
+      "roles": {
+        "research": "Research Partner",
+        "ally": "Strategic Ally",
+        "digital": "Digital Partner"
+      }
+    }
+  },
+  "MediaPage": {
+    "hero": {
+      "label": "Intelligence",
+      "title": "Research & \nInsights",
+      "titleHighlight": "Insights",
+      "subtitle": "Data-driven political intelligence and strategic analysis from the heart of Eastern Europe.",
+      "desc": "Our methodology combines field polling with expert geopolitical synthesis to provide actionable intelligence for a complex world."
+    },
+    "sidebar": {
+      "filter": "Filter by Type",
+      "categories": {
+        "all": "All Insights",
+        "polling": "Polling",
+        "analysis": "Analysis",
+        "reports": "Reports",
+        "bulletins": "Bulletins"
+      },
+      "premium": {
+        "title": "Premium Access",
+        "desc": "Get real-time alerts and exclusive geopolitical risk assessments.",
+        "button": "Subscribe"
+      }
+    },
+    "featured": {
+      "label": "Featured Analysis",
+      "type": "Analysis",
+      "readTime": "15 Min Read",
+      "title": "Quarterly Geopolitical Outlook: \nEastern Europe Transition Dynamics",
+      "desc": "A comprehensive assessment of shift in diplomatic relations following the recent regional summit, focusing on energy transit corridors and security protocols in the Carpathian region.",
+      "download": "Download Report",
+      "summary": "View Summary"
+    },
+    "highlights": {
+      "label": "Referenced In",
+      "title": "Global Media Highlights",
+      "desc": "PGR experts regularly provide political analysis for leading international and Ukrainian media outlets",
+      "trt": {
+        "title": "TRT World (October 2024)",
+        "headline": "Moldova Elections: Why the Presidential Race Could Strengthen Ties with Russia",
+        "quote": "The numbers looked stacked against Sandu going into the runoff. While she and other pro-European politicians won over 650,000 votes in the first round, 850,000 was won by Stoianoglo and candidates who either support Russia or emphasised their independence."
+      },
+      "rbc": {
+        "title": "RBC-Ukraine (2024)",
+        "headline": "Moldova, Romania: Electoral Process Analysis",
+        "desc": "Series of expert commentary by Ruslan Rokhov about Russian interference, social media in politics, and democratic processes in Eastern Europe."
+      },
+      "pravda": {
+        "title": "European Pravda (November 2024)",
+        "headline": "How TikTok and Telegram Help Overthrow Romania's 'Old Guard'",
+        "desc": "Analysis article by Ruslan Rokhov on social media influence in Romania's presidential elections."
+      },
+      "kyivpost": {
+        "title": "Kyiv Post (February 2021)",
+        "headline": "Ukrainians Want Regulation of Right to Bear Arms",
+        "desc": "Presentation of PGR Consulting Group and Info Sapiens national survey results."
+      }
+    },
+    "allMedia": {
+      "title": "All Media Mentions"
+    },
+    "research": {
+      "title": "Our Research",
+      "firearms": {
+        "title": "Firearms Regulation in Ukraine: Public Opinion",
+        "date": "February 2021",
+        "desc": "Comprehensive study of Ukrainians' attitudes toward the right to bear arms."
+      },
+      "exitpoll": {
+        "title": "Exit Poll: Chernivtsi Mayoral Elections",
+        "date": "October 2020",
+        "desc": "Results of exit poll for Chernivtsi mayoral elections."
+      }
+    },
+    "request": {
+      "title": "Request Expert Commentary",
+      "desc": "PGR Consulting Group experts are available for commentary on political processes, election campaigns, and social media influence."
+    }
+  },
+  "ContactPage": {
+    "hero": {
+      "label": "Connection",
+      "title": "Discuss Your \nStrategic \nGoals.",
+      "titleHighlight": "Strategic",
+      "subtitle": "Ready to discuss your project? We provide free consultations"
+    },
+    "form": {
+      "title": "Direct Inquiry",
+      "desc": "Our regional experts will respond within 24 business hours.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "namePlaceholder": "Your full name",
+      "emailPlaceholder": "name@example.com",
+      "subjectPlaceholder": "What is this about?",
+      "messagePlaceholder": "Describe your project or goals...",
+      "submit": "Initialize Consultation"
+    },
+    "info": {
+      "hq": "Headquarters",
+      "hours": "Business Hours",
+      "weekend": "Weekend sessions by appointment",
+      "email": "hello@pgrconsulting.group",
+      "address": "Kyiv Oblast, Ukraine",
+      "city": "Kyiv, Ukraine",
+      "building": "Business Center 'Horizon'",
+      "workDays": "Monday — Friday",
+      "workHours": "09:00 — 18:00 (EET)"
+    },
+    "expect": {
+      "title": "What to Expect",
+      "step1": "Within 24 hours: We will contact you to confirm receipt",
+      "step2": "Within 48 hours: Free initial consultation",
+      "step3": "Within one week: Detailed proposal"
+    }
+  },
+  "ServicesPage": {
+    "hero": {
+      "badge": "Precision Consulting",
+      "title": "Our \nCapabilities.",
+      "titleHighlight": "Capabilities",
+      "subtitle": "Bridging the critical gap between political ambition and clinical execution with data-driven precision."
+    },
+    "list": {
+      "pr": {
+        "title": "Public Relations (PR)",
+        "desc": "Strategic communication that build trust."
+      },
+      "reputation": {
+        "title": "Reputation Management",
+        "desc": "Protecting and strengthening your public image."
+      },
+      "gr": {
+        "title": "Government Relations (GR)",
+        "desc": "Expert navigation in relations with authorities."
+      },
+      "advocacy": {
+        "title": "Advocacy Campaigns",
+        "desc": "Systematic campaigns for implementing policy."
+      },
+      "elections": {
+        "title": "Election Campaigns",
+        "desc": "Full-cycle support from strategy to polls."
+      },
+      "research": {
+        "title": "Public Opinion Research",
+        "desc": "Reliable data for the right decisions."
+      }
+    },
+    "methodology": {
+      "badge": "Systematic Excellence",
+      "title": "The PGR \nMethodology.",
+      "titleHighlight": "Methodology",
+      "desc": "Beyond conventional consulting, we employ a multi-layered framework of sociological tracking, behavioral analysis, and strategic modeling.",
+      "cta": "Explore Our Process",
+      "steps": {
+        "s1": {
+          "title": "Diagnostic Audit",
+          "desc": "Rigorous baseline assessment of the current socio-political landscape."
+        },
+        "s2": {
+          "title": "Strategic Simulation",
+          "desc": "Modeling potential outcomes using predictive analytics and field data."
+        },
+        "s3": {
+          "title": "Deployment",
+          "desc": "Surgical execution of narrative and legislative strategies."
+        }
+      }
+    }
+  },
+  "Services": {
+    "shared": {
+      "cta": "Discuss Your Project",
+      "offer": "What We Offer",
+      "methodology": "How It Works",
+      "whyChooseUs": "Why Choose Us",
+      "explore": "Explore Strategy"
+    },
+    "pr": {
+      "title": "Public Relations (PR)",
+      "subtitle": "Strategic communications that build trust and shape public opinion",
+      "desc": "In politics, perception is often more important than facts. We help political figures and organizations create the right perception through professional media relations, public events, and digital channels.",
+      "offer": {
+        "strategy": "Media Strategy",
+        "strategyDesc": "Development of comprehensive media relations strategy.",
+        "training": "Media Training",
+        "trainingDesc": "Preparation of political figures for interviews and public appearances.",
+        "press": "Press Conferences",
+        "pressDesc": "Full cycle of press conference preparation and execution.",
+        "crisis": "Crisis Communications",
+        "crisisDesc": "Fast and effective response to reputational challenges.",
+        "monitoring": "Media Monitoring",
+        "monitoringDesc": "Continuous tracking of media mentions with tone analysis.",
+        "content": "Content Production",
+        "contentDesc": "Creation of quality content for media: press releases, articles."
+      }
+    },
+    "reputation": {
+      "title": "Reputation Management",
+      "subtitle": "Protecting and strengthening reputation amid information challenges",
+      "desc": "Reputation in politics is an asset that requires constant attention. We help political figures and organizations build sustainable positive reputations.",
+      "offer": {
+        "audit": "Reputation Audit",
+        "auditDesc": "Comprehensive analysis of current reputation status.",
+        "strategy": "Reputation Strategy",
+        "strategyDesc": "Development of long-term reputation management strategy.",
+        "monitoring": "Monitoring and Analysis",
+        "monitoringDesc": "Continuous tracking of mentions in traditional and digital media.",
+        "crisis": "Crisis Management",
+        "crisisDesc": "Rapid development and implementation of response strategy.",
+        "positive": "Positive Content",
+        "positiveDesc": "Creation and distribution of content that shapes correct perception.",
+        "negative": "Negative Management",
+        "negativeDesc": "Professional work with negative mentions and information attacks."
+      }
+    },
+    "gr": {
+      "title": "Government Relations (GR)",
+      "subtitle": "Professional navigation in interactions with government authorities",
+      "desc": "Effective interaction with government authorities requires deep understanding of decision-making processes. We help organizations build productive relationships.",
+      "offer": {
+        "strategy": "GR Strategy",
+        "strategyDesc": "Development of comprehensive government relations strategy.",
+        "stakeholder": "Stakeholder Analysis",
+        "stakeholderDesc": "Mapping key decision-makers and analyzing their interests.",
+        "leg": "Legislative Support",
+        "legDesc": "Supporting organizations in advancing legislative changes.",
+        "ministry": "Ministry Engagement",
+        "ministryDesc": "Organization of meetings and negotiation support.",
+        "regulatory": "Regulatory Analysis",
+        "regulatoryDesc": "Monitoring legislative changes and their impact analysis.",
+        "procurement": "Procurement Support",
+        "procurementDesc": "Consulting on public procurement procedures."
+      }
+    },
+    "advocacy": {
+      "title": "Advocacy Campaigns",
+      "subtitle": "Systematic campaigns for implementing policy changes",
+      "desc": "Changing policy requires more than just a good idea. It requires systematic work: research, coalition building, lobbying, and media support.",
+      "offer": {
+        "research": "Research and Analysis",
+        "researchDesc": "Study of public opinion and political context analysis.",
+        "strategy": "Strategy Development",
+        "strategyDesc": "Comprehensive advocacy campaign strategy with concrete stages.",
+        "coalition": "Coalition Building",
+        "coalitionDesc": "Uniting organizations and activists around a common goal.",
+        "lobbying": "Lobbying",
+        "lobbyingDesc": "Work with parliamentarians and decision-makers.",
+        "media": "Media Campaign",
+        "mediaDesc": "Strategic media work to build public support.",
+        "grassroots": "Grassroots Mobilization",
+        "grassrootsDesc": "Organization of public actions and petitions."
+      }
+    },
+    "elections": {
+      "title": "Election Campaigns",
+      "subtitle": "Full-cycle support from strategy to exit polls",
+      "desc": "Elections are a complex process where every detail matters. We help candidates and parties develop winning strategies based on data.",
+      "offer": {
+        "research": "Pre-Election Research",
+        "researchDesc": "Sociological surveys to determine electoral mood.",
+        "strategy": "Strategy Development",
+        "strategyDesc": "Comprehensive election campaign strategy.",
+        "positioning": "Candidate Positioning",
+        "positioningDesc": "Development of unique candidate positioning.",
+        "message": "Message Development",
+        "messageDesc": "Creation of key campaign messages for target audiences.",
+        "digital": "Digital Campaign",
+        "digitalDesc": "Social media strategy and digital channel impact analysis.",
+        "exitpoll": "Exit Polls",
+        "exitpollDesc": "Professional exit polls for accurate result forecasting."
+      }
+    },
+    "research": {
+      "title": "Public Opinion Research",
+      "subtitle": "Reliable data for the right decisions",
+      "desc": "Quality public opinion research is the foundation for effective decisions. We partner with Info Sapiens to provide precise data.",
+      "offer": {
+        "national": "National Surveys",
+        "nationalDesc": "Representative polls at the all-Ukraine level.",
+        "regional": "Regional Research",
+        "regionalDesc": "Surveys at oblast, city, or specific regional level.",
+        "exitpoll": "Exit Polls",
+        "exitpollDesc": "Voter surveys at polling station exits.",
+        "focus": "Focus Groups",
+        "focusDesc": "Qualitative research for deep understanding of motivations.",
+        "omnibus": "Omnibus Surveys",
+        "omnibusDesc": "Multiple clients sharing a single survey for affordability.",
+        "ratings": "Political Ratings",
+        "ratingsDesc": "Research of electoral ratings for parties and politicians."
+      }
+    }
+  }
+}
