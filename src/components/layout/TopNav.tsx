@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/layout/Container";
 import { clsx } from "clsx";
 import { motion, AnimatePresence } from "framer-motion";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 
 export function TopNav() {
     const t = useTranslations("Navigation");
@@ -108,6 +109,8 @@ export function TopNav() {
                         </button>
                     </div>
 
+                    <ThemeToggle />
+
                     <Link href="/contact">
                         <Button size="sm" className="rounded-xl px-8 py-3.5 text-[10px] bg-brand-black dark:bg-white text-white dark:text-brand-black hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white transition-all transform hover:scale-[1.05]">
                             {t("contact")}
@@ -116,14 +119,17 @@ export function TopNav() {
                 </div>
 
                 {/* Mobile Toggle */}
-                <button
-                    className="lg:hidden p-2 text-brand-black dark:text-white bg-gray-100 dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/10"
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                >
-                    <span className="material-symbols-outlined text-2xl">
-                        {isMobileMenuOpen ? "close" : "menu"}
-                    </span>
-                </button>
+                <div className="flex items-center gap-3 lg:hidden">
+                    <ThemeToggle />
+                    <button
+                        className="p-2 text-brand-black dark:text-white bg-gray-100 dark:bg-white/5 rounded-xl border border-gray-200 dark:border-white/10"
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    >
+                        <span className="material-symbols-outlined text-2xl">
+                            {isMobileMenuOpen ? "close" : "menu"}
+                        </span>
+                    </button>
+                </div>
             </Container>
 
             {/* Mobile Menu Backdrop */}

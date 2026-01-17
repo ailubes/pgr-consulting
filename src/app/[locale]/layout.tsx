@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.css";
 
@@ -16,6 +15,7 @@ export const metadata: Metadata = {
 
 import { TopNav } from "@/components/layout/TopNav";
 import { Footer } from "@/components/layout/Footer";
+import { Providers } from "@/components/providers/Providers";
 
 export default async function RootLayout({
   children,
@@ -32,12 +32,12 @@ export default async function RootLayout({
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=block" />
       </head>
-      <body className={`${manrope.variable} font-display antialiased bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100`}>
-        <NextIntlClientProvider messages={messages}>
+      <body className={`${manrope.variable} font-display antialiased bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 transition-colors duration-300`}>
+        <Providers messages={messages} locale={locale}>
           <TopNav />
           {children}
           <Footer />
-        </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );
