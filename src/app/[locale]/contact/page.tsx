@@ -16,15 +16,15 @@ export default function ContactPage() {
         <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen relative overflow-hidden">
             {/* Background Decoration */}
             <motion.img
-                initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 0.5, x: 0 }}
-                transition={{ duration: 2 }}
+                initial={{ opacity: 0, x: -100, y: -100, scale: 1.2 }}
+                animate={{ opacity: 0.5, x: 0, y: 0, scale: 1 }}
+                transition={{ duration: 2, ease: "easeOut" }}
                 src="/images/linear.png"
                 alt=""
                 style={{
                     filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
                 }}
-                className="absolute top-0 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
+                className="absolute -top-1/4 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
             />
 
             <Container className="pt-24 pb-32 relative z-10">
