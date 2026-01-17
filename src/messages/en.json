@@ -361,11 +361,6 @@
       "step3": "Within one week: Detailed proposal"
     }
   },
-  "tabs": {
-    "government": "Public Authorities",
-    "business": "Business",
-    "civil": "Civil Society"
-  }
 },
 "CasesPage": {
   "hero": {
@@ -397,6 +392,11 @@
   }
 },
 "ServicesPage": {
+  "tabs": {
+    "government": "Public Authorities",
+    "business": "Business",
+    "civil": "Civil Society"
+  },
   "hero": {
     "badge": "Precision Consulting",
     "title": "Our \nCapabilities.",
