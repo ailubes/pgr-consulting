@@ -2,10 +2,10 @@
   "HomePage": {
     "title": "PGR Consulting Group",
     "hero": {
-      "headline": "Political Strategy \nPublic Opinion \nResearch.",
-      "headlineHighlight": "Public Opinion",
-      "subheadline": "We help political leaders, organizations, and governments make informed decisions based on quality research and proven strategies",
-      "badge": "Eastern European Strategic Analysis",
+      "headline": "The Best \nWinning \nStrategies.",
+      "headlineHighlight": "Winning",
+      "subheadline": "A team better than Harvey Specter in the Ukrainian strategic communications market. We perform systemic landscape analysis and develop optimal strategies to achieve goals.",
+      "badge": "PGR Consulting Group LLC",
       "cta": "Our Services",
       "contact": "Contact Us",
       "learnMore": "Learn Our Methodology"
@@ -105,9 +105,9 @@
   "AboutPage": {
     "hero": {
       "label": "Our Story",
-      "title": "Architects of \nStrategic \nStability.",
-      "titleHighlight": "Strategic",
-      "subtitle": "Ukrainian consulting firm helping change policy through quality research and strategic communications",
+      "title": "You Pay \nfor Results, \nNot the Process!",
+      "titleHighlight": "Results",
+      "subtitle": "Our company is capable of performing a systemic analysis of the current 'landscape' and developing an optimal strategy for the client to achieve necessary goals.",
       "cta": "Study Our Methodology"
     },
     "mission": {
@@ -125,7 +125,7 @@
     "story": {
       "title": "Our Story",
       "content": "PGR Consulting Group was founded in 2019 with a mission to develop productive, mutually beneficial relationships between different entities. We study our clients' needs, analyze the landscape, and offer them the best strategies for achieving communication goals.",
-      "specialization": "We focus on political consulting in Ukraine and Eastern Europe, with deep understanding of the region's political dynamics. Our expertise includes Ukraine, Moldova, and Romania — countries undergoing important democratic transformations.",
+      "specialization": "PGR offers comprehensive solutions in PR, strategic planning of election campaigns, corporate problem solving, public communications, and GR. Our team provides results in the most challenging environments.",
       "diff": {
         "title": "What Sets Us Apart",
         "gov": "Government Experience: Our founders have direct experience working with Ukrainian ministries",
@@ -175,6 +175,63 @@
       "ethics": {
         "title": "Ethics Over Profit",
         "desc": "We don't take projects that contradict our ethical principles, even if they are financially attractive."
+      }
+    },
+    "guarantees": {
+      "title": "Guarantees for Our Clients",
+      "analysis": "We rigorously analyze your needs and the existing context to propose the most optimal solution.",
+      "privacy": "At your request, our cooperation will remain completely confidential.",
+      "conflict": "Working with us ensures no conflict of interest; we do not collaborate with your partners or opponents.",
+      "interests": "You can be certain that during any negotiations or data collection, we are always on the side of your interests."
+    },
+    "process": {
+      "title": "Our Working Process",
+      "step1": {
+        "title": "Start of Cooperation",
+        "desc": "Our first meeting is 'pro bono'. We get acquainted, listen to your situation, and provide basic advice."
+      },
+      "step2": {
+        "title": "Signing the Agreement",
+        "desc": "Our team's work begins after the agreement is signed and payment is made according to its terms."
+      },
+      "step3": {
+        "title": "Service Payment",
+        "desc": "Payment is made via advance payment within three days from the moment of signing the agreement."
+      },
+      "step4": {
+        "title": "Task Confirmation",
+        "desc": "We record all agreements in a messenger of your choice to avoid any misunderstandings."
+      }
+    },
+    "targetClients": {
+      "title": "Our Clients",
+      "government": {
+        "title": "Public Authorities & Politicians",
+        "items": [
+          "Politicians",
+          "Political Parties",
+          "Members of Parliament",
+          "Civil Servants",
+          "Local Self-Government Bodies"
+        ]
+      },
+      "business": {
+        "title": "Business & Business Associations",
+        "items": [
+          "Entrepreneurs",
+          "Private Companies",
+          "Corporations",
+          "Business Associations"
+        ]
+      },
+      "civil": {
+        "title": "Citizens & NGOs",
+        "items": [
+          "Citizens of Ukraine & Non-residents",
+          "Initiative Groups",
+          "Non-governmental Organizations",
+          "Professional & Industry Associations"
+        ]
       }
     },
     "partners": {
