@@ -33,6 +33,16 @@ export default function ServicesPage() {
                 <div className="absolute inset-0 swiss-grid opacity-10" />
                 <div className="absolute top-0 right-0 w-1/2 h-full diagonal-stripes opacity-10 -mr-24 -mt-24 pointer-events-none" />
 
+                {/* Linear Asset Decoration */}
+                <motion.img
+                    initial={{ opacity: 0, scale: 0.8 }}
+                    animate={{ opacity: 0.1, scale: 1 }}
+                    transition={{ duration: 2.5 }}
+                    src="/images/linear.png"
+                    alt=""
+                    className="absolute -top-1/2 -right-1/4 w-full h-auto pointer-events-none z-0 mix-blend-multiply dark:mix-blend-screen"
+                />
+
                 <Container className="relative z-10 flex flex-col items-center text-center">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

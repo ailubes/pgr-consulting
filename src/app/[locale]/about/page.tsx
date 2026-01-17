@@ -32,6 +32,16 @@ export default function AboutPage() {
                 <div className="absolute inset-0 swiss-grid opacity-10" />
                 <div className="absolute top-0 right-0 w-1/2 h-full diagonal-stripes opacity-10 -mr-24 -mt-24 pointer-events-none" />
 
+                {/* Linear Asset Decoration */}
+                <motion.img
+                    initial={{ opacity: 0, x: 100, rotate: 10 }}
+                    animate={{ opacity: 0.1, x: 0, rotate: 0 }}
+                    transition={{ duration: 2 }}
+                    src="/images/linear.png"
+                    alt=""
+                    className="absolute -bottom-1/2 -left-1/4 w-full h-auto pointer-events-none z-0 mix-blend-multiply dark:mix-blend-screen"
+                />
+
                 <Container className="relative z-10 grid lg:grid-cols-2 gap-20 items-center">
                     <div>
                         <motion.div

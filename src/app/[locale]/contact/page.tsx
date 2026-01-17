@@ -13,8 +13,18 @@ export default function ContactPage() {
     const heroParts = heroTitle.split(heroHighlight);
 
     return (
-        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
-            <Container className="pt-24 pb-32">
+        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen relative overflow-hidden">
+            {/* Background Decoration */}
+            <motion.img
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 0.1, x: 0 }}
+                transition={{ duration: 2 }}
+                src="/images/linear.png"
+                alt=""
+                className="absolute top-0 -left-1/4 w-full h-auto pointer-events-none z-0 mix-blend-multiply dark:mix-blend-screen"
+            />
+
+            <Container className="pt-24 pb-32 relative z-10">
                 <div className="grid lg:grid-cols-12 gap-20">
                     <div className="lg:col-span-7">
                         <motion.span
