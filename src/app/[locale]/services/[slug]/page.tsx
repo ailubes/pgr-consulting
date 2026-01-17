@@ -48,11 +48,14 @@ export default function ServiceDetailPage() {
             {/* Background Decoration */}
             <motion.img
                 initial={{ opacity: 0, scale: 1.1 }}
-                animate={{ opacity: 0.15, scale: 1 }}
+                animate={{ opacity: 0.5, scale: 1.2 }}
                 transition={{ duration: 2 }}
                 src="/images/linear.png"
                 alt=""
-                className="absolute -top-1/4 -right-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-5 transition-opacity"
+                style={{
+                    filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
+                }}
+                className="absolute -top-1/4 -right-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
             />
 
             <Container className="pt-12 pb-24 relative z-10">

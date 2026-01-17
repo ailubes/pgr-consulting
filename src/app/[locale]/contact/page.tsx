@@ -17,14 +17,14 @@ export default function ContactPage() {
             {/* Background Decoration */}
             <motion.img
                 initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 0.4, x: 0 }}
+                animate={{ opacity: 0.5, x: 0 }}
                 transition={{ duration: 2 }}
                 src="/images/linear.png"
                 alt=""
                 style={{
                     filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
                 }}
-                className="absolute top-0 -left-1/4 w-full h-auto pointer-events-none z-[1] dark:opacity-20 transition-opacity"
+                className="absolute top-0 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
             />
 
             <Container className="pt-24 pb-32 relative z-10">
