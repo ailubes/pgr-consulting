@@ -44,8 +44,18 @@ export default function ServiceDetailPage() {
     const offerKeys = offerKeysMap[slug] || [];
 
     return (
-        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
-            <Container className="pt-12 pb-24">
+        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen relative overflow-hidden">
+            {/* Background Decoration */}
+            <motion.img
+                initial={{ opacity: 0, scale: 1.1 }}
+                animate={{ opacity: 0.15, scale: 1 }}
+                transition={{ duration: 2 }}
+                src="/images/linear.png"
+                alt=""
+                className="absolute -top-1/4 -right-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-5 transition-opacity"
+            />
+
+            <Container className="pt-12 pb-24 relative z-10">
                 {/* Breadcrumbs */}
                 <nav className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-gray-400 mb-16">
                     <Link href="/" className="hover:text-primary transition-colors">{tNav("home")}</Link>

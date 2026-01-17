@@ -34,12 +34,12 @@ export default function AboutPage() {
 
                 {/* Linear Asset Decoration */}
                 <motion.img
-                    initial={{ opacity: 0, x: 100, rotate: 10 }}
-                    animate={{ opacity: 0.1, x: 0, rotate: 0 }}
+                    initial={{ opacity: 0, scale: 1.1 }}
+                    animate={{ opacity: 0.3, scale: 1 }}
                     transition={{ duration: 2 }}
                     src="/images/linear.png"
                     alt=""
-                    className="absolute -bottom-1/2 -left-1/4 w-full h-auto pointer-events-none z-0 mix-blend-multiply dark:mix-blend-screen"
+                    className="absolute -bottom-1/2 -left-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-10 transition-opacity"
                 />
 
                 <Container className="relative z-10 grid lg:grid-cols-2 gap-20 items-center">

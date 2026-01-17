@@ -20,7 +20,7 @@ export function Footer() {
                     {/* Brand Column */}
                     <div className="lg:col-span-4 flex flex-col gap-10">
                         <Link href="/">
-                            <Logo className="brightness-200" imageClassName="h-40 md:h-48" />
+                            <Logo className="brightness-200" imageClassName="h-20 md:h-24" />
                         </Link>
                         <p className="text-gray-400 text-sm max-w-sm leading-relaxed font-medium">
                             {t("description")}

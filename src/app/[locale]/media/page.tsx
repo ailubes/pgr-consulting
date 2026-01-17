@@ -25,8 +25,18 @@ export default function MediaPage() {
     const featuredTitleLines = featuredTitle.split("\n");
 
     return (
-        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
-            <Container className="flex pt-12 pb-24">
+        <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen relative overflow-hidden">
+            {/* Background Decoration */}
+            <motion.img
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 0.1, x: 0 }}
+                transition={{ duration: 2 }}
+                src="/images/linear.png"
+                alt=""
+                className="absolute top-0 -left-1/4 w-full h-auto pointer-events-none z-0 dark:opacity-5 transition-opacity"
+            />
+
+            <Container className="flex pt-12 pb-24 relative z-10">
                 {/* Sidebar */}
                 <aside className="w-64 hidden lg:flex flex-col gap-8 shrink-0 border-r border-gray-100 dark:border-gray-800 pr-12">
                     <div className="flex flex-col gap-2">
