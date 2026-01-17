@@ -42,10 +42,10 @@ export function GuaranteesGrid() {
                             </div>
                             <div>
                                 <h3 className="text-xl font-black mb-3 text-white/90 group-hover:text-white transition-colors">
-                                    {item.id === "conflict" ? "No Conflict of Interest" : item.id}
+                                    {t(`${item.id}.title`)}
                                 </h3>
                                 <p className="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                                    {t(item.id)}
+                                    {t(`${item.id}.desc`)}
                                 </p>
                             </div>
                         </motion.div>
