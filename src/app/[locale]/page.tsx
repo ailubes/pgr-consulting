@@ -30,7 +30,7 @@ export default function HomePage() {
       <MediaLogos />
 
       {/* Expertise Grid */}
-      <section className="py-24 bg-white dark:bg-background-dark overflow-hidden relative">
+      <section className="py-12 md:py-16 lg:py-24 bg-white dark:bg-background-dark overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full diagonal-stripes opacity-5 pointer-events-none" />
 
         {/* Linear Asset Decoration */}
@@ -47,7 +47,7 @@ export default function HomePage() {
         />
 
         <Container>
-          <div className="flex flex-col lg:flex-row justify-between items-end gap-12 mb-20">
+          <div className="flex flex-col lg:flex-row justify-between items-end gap-8 md:gap-12 mb-12 md:mb-16 lg:mb-20">
             <div className="max-w-2xl">
               <motion.span
                 initial={{ opacity: 0, x: -20 }}
@@ -80,7 +80,7 @@ export default function HomePage() {
             </motion.p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={service.id}
@@ -102,22 +102,22 @@ export default function HomePage() {
       </section>
 
       {/* Research CTA Section */}
-      <section className="py-24 px-6 overflow-hidden">
+      <section className="py-12 md:py-16 lg:py-24 overflow-hidden">
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
-            className="bg-primary rounded-[3rem] p-8 md:p-20 flex flex-col lg:flex-row items-center gap-16 text-white relative shadow-2xl shadow-primary/20"
+            className="bg-primary rounded-2xl md:rounded-[3rem] p-8 md:p-12 lg:p-20 flex flex-col lg:flex-row items-center gap-10 md:gap-16 text-white relative shadow-2xl shadow-primary/20"
           >
             <div className="absolute top-0 right-0 p-24 diagonal-stripes h-full w-1/2 opacity-20 pointer-events-none" />
             <div className="flex-1 z-10">
-              <span className="text-white/70 font-black uppercase tracking-[0.3em] text-[10px] block mb-8 italic">{t("research.label")}</span>
-              <h2 className="text-4xl md:text-6xl font-black mb-8 leading-[0.95] tracking-tighter">
+              <span className="text-white/70 font-black uppercase tracking-[0.3em] text-[10px] block mb-4 md:mb-6 italic">{t("research.label")}</span>
+              <h2 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 md:mb-8 leading-[0.95] tracking-tighter">
                 {t("research.moldova.title")}
               </h2>
-              <p className="text-white/80 text-lg md:text-xl mb-12 max-w-lg leading-relaxed font-medium">
+              <p className="text-white/80 text-base md:text-lg lg:text-xl mb-8 md:mb-12 max-w-lg leading-relaxed font-medium">
                 {t("research.moldova.desc")}
               </p>
               <Button size="lg" className="group bg-brand-black text-white hover:bg-white hover:text-primary px-10 py-5 rounded-xl font-black uppercase tracking-widest text-xs flex items-center gap-3 transition-all duration-300">
@@ -127,8 +127,8 @@ export default function HomePage() {
             </div>
 
             <div className="flex-1 w-full lg:w-auto z-10">
-              <div className="bg-white/10 backdrop-blur-2xl rounded-3xl p-10 border border-white/20 shadow-2xl">
-                <div className="space-y-10">
+              <div className="bg-white/10 backdrop-blur-2xl rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 border border-white/20 shadow-2xl">
+                <div className="space-y-6 md:space-y-8 lg:space-y-10">
                   {[
                     { label: t("research.stats.alignment"), val: 72 },
                     { label: t("research.stats.concern"), val: 48 },

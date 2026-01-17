@@ -22,7 +22,7 @@ export default function CasesPage() {
     return (
         <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
             {/* Hero Section */}
-            <section className="relative py-24 overflow-hidden border-b border-gray-100 dark:border-white/5">
+            <section className="relative py-12 md:py-20 lg:py-24 overflow-hidden border-b border-gray-100 dark:border-white/5">
                 {/* Linear Asset Decoration */}
                 <motion.img
                     initial={{ opacity: 0, x: -100, y: -100, scale: 1.2 }}
@@ -56,9 +56,9 @@ export default function CasesPage() {
             </section>
 
             {/* Cases Grid */}
-            <section className="py-24">
+            <section className="py-12 md:py-16 lg:py-24">
                 <Container>
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 gap-6 md:gap-8">
                         {cases.map((item, index) => (
                             <motion.div
                                 key={item.id}
@@ -66,21 +66,21 @@ export default function CasesPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="group relative bg-white dark:bg-white/5 rounded-3xl p-10 border border-gray-100 dark:border-white/10 hover:border-primary/30 transition-colors overflow-hidden"
+                                className="group relative bg-white dark:bg-white/5 rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 border border-gray-100 dark:border-white/10 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 overflow-hidden"
                             >
-                                <div className="absolute top-0 right-0 p-12 opacity-5 group-hover:opacity-10 transition-opacity">
-                                    <span className="material-symbols-outlined text-9xl">{item.icon}</span>
+                                <div className="absolute top-0 right-0 p-8 md:p-12 opacity-[0.03] group-hover:opacity-10 transition-opacity">
+                                    <span className="material-symbols-outlined text-7xl md:text-9xl text-primary">{item.icon}</span>
                                 </div>
 
-                                <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-black uppercase tracking-widest rounded-full mb-6">
+                                <span className="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-black uppercase tracking-widest rounded-full mb-4 md:mb-6">
                                     {t(`cases.${item.id}.tag`)}
                                 </span>
 
-                                <h3 className="text-2xl font-black text-brand-black dark:text-white mb-4 leading-tight">
+                                <h3 className="text-xl md:text-2xl font-black text-brand-black dark:text-white mb-3 md:mb-4 leading-tight">
                                     {t(`cases.${item.id}.title`)}
                                 </h3>
 
-                                <p className="text-gray-500 dark:text-gray-400 leading-relaxed mb-8">
+                                <p className="text-sm md:text-base text-gray-500 dark:text-gray-400 leading-relaxed mb-6 md:mb-8">
                                     {t(`cases.${item.id}.desc`)}
                                 </p>
 

@@ -27,8 +27,8 @@ export default function ContactPage() {
                 className="absolute -top-1/4 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
             />
 
-            <Container className="pt-24 pb-32 relative z-10">
-                <div className="grid lg:grid-cols-12 gap-20">
+            <Container className="pt-12 md:pt-20 lg:pt-24 pb-16 md:pb-24 lg:pb-32 relative z-10">
+                <div className="grid lg:grid-cols-12 gap-10 md:gap-16 lg:gap-20">
                     <div className="lg:col-span-7">
                         <motion.span
                             initial={{ opacity: 0, x: -20 }}

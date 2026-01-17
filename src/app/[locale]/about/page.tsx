@@ -30,7 +30,7 @@ export default function AboutPage() {
     return (
         <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
             {/* Hero Section */}
-            <section className="relative py-24 md:py-32 overflow-hidden border-b border-gray-100 dark:border-white/5">
+            <section className="relative py-12 md:py-20 lg:py-32 overflow-hidden border-b border-gray-100 dark:border-white/5">
                 <div className="absolute inset-0 swiss-grid opacity-10" />
                 <div className="absolute top-0 right-0 w-1/2 h-full diagonal-stripes opacity-10 -mr-24 -mt-24 pointer-events-none" />
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
                     className="absolute -top-1/4 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
                 />
 
-                <Container className="relative z-10 grid lg:grid-cols-2 gap-20 items-center">
+                <Container className="relative z-10 grid lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
                     <div>
                         <motion.div
                             initial={{ opacity: 0, x: -20 }}
@@ -111,16 +111,16 @@ export default function AboutPage() {
             <ProcessTimeline />
 
             {/* Brain Trust (Team) Section */}
-            <section className="py-32 bg-white dark:bg-background-dark/50">
+            <section className="py-12 md:py-20 lg:py-32 bg-white dark:bg-background-dark/50">
                 <Container>
                     <SectionHeading
                         label={t("team.label")}
                         title={t("team.title")}
                         description={t("team.desc")}
-                        className="mb-24"
+                        className="mb-12 md:mb-16 lg:mb-24"
                     />
 
-                    <div className="grid md:grid-cols-2 gap-20">
+                    <div className="grid md:grid-cols-2 gap-10 md:gap-16 lg:gap-20">
                         <TeamMemberCard
                             name={t("team.ruslan.name")}
                             title={t("team.ruslan.title")}

@@ -18,21 +18,21 @@ export function ServiceCard({ title, description, icon, href }: ServiceCardProps
         <Link href={href}>
             <motion.div
                 whileHover={{ y: -5, transition: { duration: 0.2 } }}
-                className="group h-full flex flex-col p-8 md:p-10 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800/50 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden"
+                className="group h-full flex flex-col p-6 md:p-8 lg:p-10 rounded-2xl md:rounded-3xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800/50 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-300 relative overflow-hidden"
             >
                 {/* Background Pattern on Hover */}
                 <div className="absolute top-0 right-0 w-32 h-32 diagonal-stripes opacity-0 group-hover:opacity-10 transition-opacity transform translate-x-8 -translate-y-8" />
 
                 <div className="relative z-10">
-                    <div className="size-14 rounded-xl bg-gray-50 dark:bg-gray-800 flex items-center justify-center text-primary mb-8 group-hover:bg-primary group-hover:text-white transition-all shadow-sm">
-                        <span className="material-symbols-outlined text-3xl font-light">{icon}</span>
+                    <div className="size-16 md:size-20 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 flex items-center justify-center text-primary mb-6 md:mb-8 group-hover:from-primary group-hover:to-primary group-hover:text-white group-hover:scale-110 transition-all duration-300 shadow-lg shadow-primary/10 group-hover:shadow-2xl group-hover:shadow-primary/30">
+                        <span className="material-symbols-outlined text-4xl md:text-5xl font-light">{icon}</span>
                     </div>
 
-                    <h3 className="text-xl md:text-2xl font-black mb-4 dark:text-white group-hover:text-primary transition-colors">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-black mb-3 md:mb-4 dark:text-white group-hover:text-primary transition-colors">
                         {title}
                     </h3>
 
-                    <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-8">
+                    <p className="text-gray-600 dark:text-gray-400 text-sm md:text-base leading-relaxed mb-6 md:mb-8">
                         {description}
                     </p>
                 </div>
