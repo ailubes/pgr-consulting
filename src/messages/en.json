@@ -390,7 +390,48 @@
       }
     }
   },
+  "guarantees": {
+    "title": "Guarantees for Our Clients",
+    "subtitle": "Your confidence is our priority",
+    "analysis": {
+      "title": "Optimal Solutions",
+      "desc": "We thoroughly analyze your needs and the existing context to propose the most effective and well-considered solution for achieving your goals."
+    },
+    "privacy": {
+      "title": "Complete Confidentiality",
+      "desc": "Upon your request, our cooperation will remain completely confidential. We guarantee the protection of your information and privacy at all stages of work."
+    },
+    "conflict": {
+      "title": "No Conflict of Interest",
+      "desc": "When working with you, we guarantee no conflict of interest. We do not simultaneously work with your partners, competitors, or opponents."
+    },
+    "interests": {
+      "title": "Protection of Your Interests",
+      "desc": "During any negotiations, research, or data collection, you can be confident that we always act exclusively in the interests of your project."
+    }
+  },
+  "process": {
+    "title": "Our Working Process",
+    "subtitle": "Transparent process from first meeting to results",
+    "step1": {
+      "title": "Free Consultation",
+      "desc": "Our first meeting is always free (pro bono). We get acquainted, thoroughly study your situation, and provide basic recommendations on possible solutions."
+    },
+    "step2": {
+      "title": "Signing the Agreement",
+      "desc": "Official work of our team begins after signing the contract. The document clearly defines the scope of work, deadlines, responsibilities of parties, and payment terms."
+    },
+    "step3": {
+      "title": "Service Payment",
+      "desc": "Payment is made by advance payment within three business days from the moment of signing the contract according to agreed terms."
+    },
+    "step4": {
+      "title": "Task Documentation",
+      "desc": "All agreements, tasks, and interim results are documented in your preferred messenger or CRM system to avoid misunderstandings and ensure transparency."
+    }
+  },
   "targetClients": {
+    "title": "Our Clients",
     "label": "Target Audience",
     "government": {
       "title": "Public Authorities & Politicians",
