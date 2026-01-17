@@ -32,6 +32,20 @@ export default function HomePage() {
       {/* Expertise Grid */}
       <section className="py-24 bg-white dark:bg-background-dark overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/3 h-full diagonal-stripes opacity-5 pointer-events-none" />
+
+        {/* Linear Asset Decoration */}
+        <motion.img
+          initial={{ opacity: 0, x: -100, y: -100, scale: 1.2 }}
+          animate={{ opacity: 0.5, x: 0, y: 0, scale: 1 }}
+          transition={{ duration: 2, ease: "easeOut" }}
+          src="/images/linear.png"
+          alt=""
+          style={{
+            filter: "invert(31%) sepia(88%) saturate(1511%) hue-rotate(331deg) brightness(85%) contrast(92%)"
+          }}
+          className="absolute -top-1/4 -left-1/4 w-full h-auto pointer-events-none z-[1] transition-opacity"
+        />
+
         <Container>
           <div className="flex flex-col lg:flex-row justify-between items-end gap-12 mb-20">
             <div className="max-w-2xl">
