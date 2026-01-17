@@ -3,20 +3,26 @@
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/layout/Container";
 import { ServiceCard } from "@/components/modules/ServiceCard";
-import { motion } from "framer-motion";
+import { ServiceSegmentTabs } from "@/components/modules/ServiceSegmentTabs";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/Button";
+import { useState } from "react";
 
 export default function ServicesPage() {
     const t = useTranslations("ServicesPage");
+    const tClients = useTranslations("targetClients");
+    const [activeSegment, setActiveSegment] = useState<"government" | "business" | "civil">("government");
 
-    const services = [
-        { id: "pr", icon: "campaign" },
-        { id: "reputation", icon: "shield_person" },
-        { id: "gr", icon: "gavel" },
-        { id: "advocacy", icon: "target" },
-        { id: "elections", icon: "how_to_reg" },
-        { id: "research", icon: "analytics" },
+    const allServices = [
+        { id: "pr", icon: "campaign", segments: ["government", "business", "civil"] },
+        { id: "reputation", icon: "shield_person", segments: ["government", "business", "civil"] },
+        { id: "gr", icon: "gavel", segments: ["business", "civil"] },
+        { id: "advocacy", icon: "target", segments: ["civil"] },
+        { id: "elections", icon: "how_to_reg", segments: ["government"] },
+        { id: "research", icon: "analytics", segments: ["government", "business", "civil"] },
     ];
+
+    const filteredServices = allServices.filter(s => s.segments.includes(activeSegment));
 
     const heroTitle = t("hero.title");
     const heroHighlight = t("hero.titleHighlight");
@@ -25,6 +31,11 @@ export default function ServicesPage() {
     const methTitle = t("methodology.title");
     const methHighlight = t("methodology.titleHighlight");
     const methParts = methTitle.split(methHighlight);
+
+    // Get specific offerings for the active segment
+    // Using explicit casting or mapped access to avoid TS errors with next-intl keys
+    const segmentItems = (tClients.raw(`${activeSegment}.items`) as string[]) || [];
+    const segmentTitle = tClients(`${activeSegment}.title`);
 
     return (
         <main className="pt-32 bg-background-light dark:bg-background-dark min-h-screen">
@@ -77,27 +88,65 @@ export default function ServicesPage() {
                 </Container>
             </section>
 
-            {/* Grid Section */}
+            {/* Segmented Services Section */}
             <section className="py-24 md:py-32">
                 <Container>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                        {services.map((service, index) => (
-                            <motion.div
-                                key={service.id}
-                                initial={{ opacity: 0, y: 30 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: index * 0.1, duration: 0.6 }}
-                            >
-                                <ServiceCard
-                                    title={t(`list.${service.id}.title`)}
-                                    description={t(`list.${service.id}.desc`)}
-                                    icon={service.icon}
-                                    href={`/services/${service.id}`}
-                                />
-                            </motion.div>
-                        ))}
+                    <ServiceSegmentTabs onSegmentChange={setActiveSegment} />
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-20">
+                        <AnimatePresence mode="popLayout">
+                            {filteredServices.map((service, index) => (
+                                <motion.div
+                                    key={service.id}
+                                    initial={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
+                                    animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+                                    exit={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
+                                    transition={{ duration: 0.4 }}
+                                >
+                                    <ServiceCard
+                                        title={t(`list.${service.id}.title`)}
+                                        description={t(`list.${service.id}.desc`)}
+                                        icon={service.icon}
+                                        href={`/services/${service.id}`}
+                                    />
+                                </motion.div>
+                            ))}
+                        </AnimatePresence>
                     </div>
+
+                    {/* PDF-Specific Items List */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        key={activeSegment}
+                        className="bg-gray-50 dark:bg-white/5 rounded-3xl p-12 lg:p-16 relative overflow-hidden"
+                    >
+                        <div className="absolute top-0 right-0 p-12 diagonal-stripes opacity-5 pointer-events-none w-1/2 h-full" />
+
+                        <div className="relative z-10 flex flex-col md:flex-row gap-12 items-start">
+                            <div className="md:w-1/3">
+                                <span className="text-primary font-black tracking-widest uppercase text-xs block mb-4">Цільова Аудиторія</span>
+                                <h3 className="text-3xl font-black text-brand-black dark:text-white leading-tight">
+                                    {segmentTitle}
+                                </h3>
+                            </div>
+                            <div className="md:w-2/3 grid sm:grid-cols-2 gap-6 w-full">
+                                {segmentItems.map((item, i) => (
+                                    <motion.div
+                                        key={i}
+                                        initial={{ opacity: 0, x: 20 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        transition={{ delay: i * 0.1 }}
+                                        className="flex items-start gap-4"
+                                    >
+                                        <span className="material-symbols-outlined text-primary mt-1">check_circle</span>
+                                        <span className="text-gray-600 dark:text-gray-300 font-medium">{item}</span>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </div>
+                    </motion.div>
+
                 </Container>
             </section>
 

@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import { Container } from "@/components/layout/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { TeamMemberCard } from "@/components/modules/TeamMemberCard";
+import { ProcessTimeline } from "@/components/modules/ProcessTimeline";
+import { GuaranteesGrid } from "@/components/modules/GuaranteesGrid";
 import { InstitutionalPartners } from "@/components/modules/InstitutionalPartners";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
@@ -102,7 +104,13 @@ export default function AboutPage() {
                 </Container>
             </section>
 
-            {/* Braing Trust (Team) Section */}
+            {/* Guarantees Section (New) */}
+            <GuaranteesGrid />
+
+            {/* Process Timeline (New) */}
+            <ProcessTimeline />
+
+            {/* Brain Trust (Team) Section */}
             <section className="py-32 bg-white dark:bg-background-dark/50">
                 <Container>
                     <SectionHeading
